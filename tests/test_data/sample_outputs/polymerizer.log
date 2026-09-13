@@ -1,0 +1,35 @@
+2026-07-24 20:14:22,764 - polymerizer - INFO - Populating checkpoint DB …
+2026-07-24 20:14:22,789 - polymerizer - INFO - Permutations for vinyl_none: 1
+2026-07-24 20:14:22,791 - polymerizer - INFO - Permutations for cOle_none: 1
+2026-07-24 20:14:22,792 - polymerizer - INFO - Permutations for vinyl_vinyl: 1
+2026-07-24 20:14:22,793 - polymerizer - INFO - Permutations for vinyl_cOle: 1
+2026-07-24 20:14:22,794 - polymerizer - INFO - Permutations for hydCOOH_none: 1
+2026-07-24 20:14:22,795 - polymerizer - INFO - Permutations for lactone_none: 1
+2026-07-24 20:14:22,796 - polymerizer - INFO - Permutations for hydCOOH_hydCOOH: 1
+2026-07-24 20:14:22,797 - polymerizer - INFO - Permutations for diol_CO: 1
+2026-07-24 20:14:22,798 - polymerizer - INFO - Permutations for diCOOH_diol: 1
+2026-07-24 20:14:22,799 - polymerizer - INFO - Permutations for cAnhyd_epo: 1
+2026-07-24 20:14:22,800 - polymerizer - INFO - Permutations for epo_none: 1
+2026-07-24 20:14:22,801 - polymerizer - INFO - Permutations for hindPhenol_none: 1
+2026-07-24 20:14:22,802 - polymerizer - INFO - Permutations for sfonediX_diol_b: 1
+2026-07-24 20:14:22,802 - polymerizer - INFO - Permutations for lactam_none: 1
+2026-07-24 20:14:22,803 - polymerizer - INFO - Permutations for aminCOOH_none: 1
+2026-07-24 20:14:22,804 - polymerizer - INFO - Permutations for diCOOH_diamin: 1
+2026-07-24 20:14:22,805 - polymerizer - INFO - Permutations for aminCOOH_aminCOOH: 1
+2026-07-24 20:14:22,806 - polymerizer - INFO - Permutations for dicAnhyd_diamin: 1
+2026-07-24 20:14:22,807 - polymerizer - INFO - Permutations for diNCO_diol: 1
+2026-07-24 20:14:22,808 - polymerizer - INFO - Permutations for diepo_diNCO: 1
+2026-07-24 20:14:22,809 - polymerizer - INFO - Checkpoint DB populated with 20 tasks
+2026-07-24 20:14:22,810 - polymerizer - INFO - Using 3 MPI worker ranks
+2026-07-24 20:14:22,811 - polymerizer - INFO - Task-fetch chunk size = 50
+2026-07-24 20:14:22,812 - polymerizer - INFO - Starting MPI parallel batch polymerisation
+2026-07-24 20:14:22,813 - polymerizer - INFO - Pending: 20  chunk_size=50  n_workers=3
+2026-07-24 20:14:32,578 - polymerizer - INFO - Run finished.  ok=20  fail=0  total=20  submitted=20  elapsed=9s
+2026-07-24 20:14:32,580 - polymerizer - INFO - Per-class summary:
+2026-07-24 20:14:32,581 - polymerizer - INFO -   [OK] polyamide: 4/4  failed=0
+2026-07-24 20:14:32,583 - polymerizer - INFO -   [OK] polyester: 6/6  failed=0
+2026-07-24 20:14:32,584 - polymerizer - INFO -   [OK] polyether: 3/3  failed=0
+2026-07-24 20:14:32,586 - polymerizer - INFO -   [OK] polyimide: 1/1  failed=0
+2026-07-24 20:14:32,587 - polymerizer - INFO -   [OK] polyolefin: 4/4  failed=0
+2026-07-24 20:14:32,588 - polymerizer - INFO -   [OK] polyoxazolidone: 1/1  failed=0
+2026-07-24 20:14:32,590 - polymerizer - INFO -   [OK] polyurethane: 1/1  failed=0

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "polyscript"
+version = "0.1.0"
+description = "Polymer chemistry sequence generation, classification, validation, and depolymerization"
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+docs = [
+    "mkdocs>=1.6",
+    "mkdocs-material>=9.5",
+    "mkdocstrings[python]>=0.25",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
