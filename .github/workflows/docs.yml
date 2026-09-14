@@ -2,9 +2,9 @@ name: Docs
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
   workflow_dispatch:
 
 permissions:
@@ -27,7 +27,7 @@ jobs:
       run: |
         mkdocs build
     - name: Deploy docs
-      if: github.ref == 'refs/heads/main' || github.event_name == 'workflow_dispatch'
+      if: github.ref == 'refs/heads/master' || github.event_name == 'workflow_dispatch'
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
