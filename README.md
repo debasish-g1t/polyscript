@@ -1,6 +1,6 @@
 # PolyScript
 
-Polymer chemistry sequence generation, classification, validation, and depolymerization.
+An optimized virtual polymerization framework that utilizes a custom polymer representation to induce better programmability for the chain formation.
 
 ## Installation
 
@@ -38,7 +38,7 @@ If you use PolyScript in your research, please cite it using the following BibTe
 ```bibtex
 @misc{polyscript2024,
   author = {PolyScript Contributors},
-  title = {PolyScript: Polymer chemistry sequence generation, classification, validation, and depolymerization},
+  title = {PolyScript: An optimized virtual polymerization framework that utilizes a custom polymer representation to induce better programmability for the chain formation.},
   year = {2024},
   publisher = {GitHub},
   journal = {GitHub repository},

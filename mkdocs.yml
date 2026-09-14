@@ -1,5 +1,5 @@
 site_name: PolyScript
-site_description: Polymer chemistry sequence generation, classification, validation, and depolymerization
+site_description: An optimized virtual polymerization framework that utilizes a custom polymer representation to induce better programmability for the chain formation.
 site_author: PolyScript Contributors
 repo_url: https://github.com/user/polyscript
 repo_name: polyscript
