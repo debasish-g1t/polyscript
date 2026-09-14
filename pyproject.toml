@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "polyscript-pypi"
 version = "0.1.0"
-description = "Polymer chemistry sequence generation, classification, validation, and depolymerization"
+description = "An optimized virtual polymerization framework that utilizes a custom polymer representation to induce better programmability for the chain formation."
 readme = "README.md"
 requires-python = ">=3.10"
 license = {file = "LICENSE"}
