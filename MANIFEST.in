@@ -1,1 +1,2 @@
 include polyscript/polymerizer/rules/*.json
+include polyscript/polymerizer/rules/*.pkl
