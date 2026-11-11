@@ -16,7 +16,8 @@ the monomers, and runs virtual polymerization. Optional stages evaluate the
 extender mechanism and benchmark VPF resources.
 
 The exact commands, inputs, and outputs for each step are in
-[Workflow.md](Workflow.md). The accompanying research paper describes the
+[Workflow.md](https://github.com/debasish-g1t/polyscript/blob/master/Workflow.md).
+The accompanying research paper describes the
 chemistry, benchmark design, and analysis.
 
 ## Files
@@ -72,8 +73,10 @@ The 2.1 archive is 14.6 GB. Download only the files that you need.
 ## Reproduction
 
 The scripts, step order, and released outputs are documented in
-[Workflow.md](Workflow.md). The same workflow is reproduced in the PolyScript
-source repository under `runners/` and `tests/`.
+[Workflow.md](https://github.com/debasish-g1t/polyscript/blob/master/Workflow.md).
+The same workflow is reproduced in the
+[PolyScript source repository](https://github.com/debasish-g1t/polyscript)
+under `runners/` and `tests/`.
 
 ## License
 

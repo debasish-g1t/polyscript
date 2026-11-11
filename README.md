@@ -61,7 +61,12 @@ mkdocs build
 
 ## Testing
 
+The test suite uses data in Git LFS. Pull the LFS objects before you run the
+tests:
+
 ```bash
+git lfs install
+git lfs pull
 pip install .[test]
 pytest tests/
 ```
