@@ -1,0 +1,32 @@
+# PolyScript runtime dependencies
+# Install with: pip install -r requirements.txt
+
+# Core chemistry / molecular handling
+rdkit>=2023.03
+selfies>=2.1
+
+# Data / dataframe stack
+numpy>=1.24
+pandas>=2.0
+polars>=0.20
+pyarrow>=14.0
+fastparquet>=2023.10
+
+# Parallel / distributed execution
+mpi4py>=3.1
+
+# Utilities
+joblib>=1.3
+tqdm>=4.66
+matplotlib>=3.7
+rich>=13.0
+
+# Canonicalization backend (git dependency)
+git+https://github.com/Ramprasad-Group/canonicalize_psmiles.git
+
+# MCP server
+mcp>=1.0
+fastmcp>=2.0.0
+
+# Development / testing
+pytest>=7.4

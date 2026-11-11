@@ -1,0 +1,4 @@
+fastmcp>=2.0.0
+rdkit>=2023.03
+pandas>=2.0
+pyarrow>=14.0

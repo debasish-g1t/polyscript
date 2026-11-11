@@ -1,0 +1,41 @@
+# Python caches and environments
+__pycache__/
+*.pyc
+venv/
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Build artifacts
+build/
+dist/
+*.egg-info
+
+# Generated documentation
+site/
+
+# Benchmark artifacts (released on Hugging Face).
+# Keep only the files that tests/test_mechanism_table.py and
+# tests/test_extension_traces.py read.
+benchmarks/*
+!benchmarks/extract_extension_traces.py
+!benchmarks/mechanism_table.tex
+!benchmarks/mechanism_examples.md
+!benchmarks/traces/
+benchmarks/traces/*
+!benchmarks/traces/mechanisms/
+benchmarks/traces/mechanisms/*
+!benchmarks/traces/mechanisms/practical/
+benchmarks/traces/mechanisms/practical/*
+!benchmarks/traces/mechanisms/practical/*.svg
+benchmarks_/
+/extender_benchmarks.zip
+
+# Test and coverage artifacts
+.coverage
+htmlcov/
+*.log
+
+# Bulk data (*.parquet, *.csv, *.zip, *.pkl, *.joblib, *.z) is tracked with
+# Git LFS; see .gitattributes. Do not ignore these by extension.

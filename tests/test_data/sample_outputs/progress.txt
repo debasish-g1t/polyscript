@@ -1,0 +1,35 @@
+2026-07-24 20:14:22 [I] Populating checkpoint DB …
+2026-07-24 20:14:22 [I] Permutations for vinyl_none: 1
+2026-07-24 20:14:22 [I] Permutations for cOle_none: 1
+2026-07-24 20:14:22 [I] Permutations for vinyl_vinyl: 1
+2026-07-24 20:14:22 [I] Permutations for vinyl_cOle: 1
+2026-07-24 20:14:22 [I] Permutations for hydCOOH_none: 1
+2026-07-24 20:14:22 [I] Permutations for lactone_none: 1
+2026-07-24 20:14:22 [I] Permutations for hydCOOH_hydCOOH: 1
+2026-07-24 20:14:22 [I] Permutations for diol_CO: 1
+2026-07-24 20:14:22 [I] Permutations for diCOOH_diol: 1
+2026-07-24 20:14:22 [I] Permutations for cAnhyd_epo: 1
+2026-07-24 20:14:22 [I] Permutations for epo_none: 1
+2026-07-24 20:14:22 [I] Permutations for hindPhenol_none: 1
+2026-07-24 20:14:22 [I] Permutations for sfonediX_diol_b: 1
+2026-07-24 20:14:22 [I] Permutations for lactam_none: 1
+2026-07-24 20:14:22 [I] Permutations for aminCOOH_none: 1
+2026-07-24 20:14:22 [I] Permutations for diCOOH_diamin: 1
+2026-07-24 20:14:22 [I] Permutations for aminCOOH_aminCOOH: 1
+2026-07-24 20:14:22 [I] Permutations for dicAnhyd_diamin: 1
+2026-07-24 20:14:22 [I] Permutations for diNCO_diol: 1
+2026-07-24 20:14:22 [I] Permutations for diepo_diNCO: 1
+2026-07-24 20:14:22 [I] Checkpoint DB populated with 20 tasks
+2026-07-24 20:14:22 [I] Using 3 MPI worker ranks
+2026-07-24 20:14:22 [I] Task-fetch chunk size = 50
+2026-07-24 20:14:22 [I] Starting MPI parallel batch polymerisation
+2026-07-24 20:14:22 [I] Pending: 20  chunk_size=50  n_workers=3
+2026-07-24 20:14:32 [I] Run finished.  ok=20  fail=0  total=20  submitted=20  elapsed=9s
+2026-07-24 20:14:32 [I] Per-class summary:
+2026-07-24 20:14:32 [I]   [OK] polyamide: 4/4  failed=0
+2026-07-24 20:14:32 [I]   [OK] polyester: 6/6  failed=0
+2026-07-24 20:14:32 [I]   [OK] polyether: 3/3  failed=0
+2026-07-24 20:14:32 [I]   [OK] polyimide: 1/1  failed=0
+2026-07-24 20:14:32 [I]   [OK] polyolefin: 4/4  failed=0
+2026-07-24 20:14:32 [I]   [OK] polyoxazolidone: 1/1  failed=0
+2026-07-24 20:14:32 [I]   [OK] polyurethane: 1/1  failed=0
