@@ -1,0 +1,17 @@
+/*
+ * Logo sizing — square logo, sized to be prominent in the header
+ * without crowding the navigation.
+ */
+
+/* Square logo: uniform height gives clean proportions */
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+    height: 2.4rem;
+    width: auto;                 /* respects natural aspect ratio */
+    padding: 0.15rem 0;
+}
+
+/* Light mode: subtle bottom border to separate white header from white page */
+[data-md-color-scheme="default"] .md-header {
+    border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
